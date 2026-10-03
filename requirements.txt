@@ -1,0 +1,14 @@
+# Python 3.12에서 실행 확인한 버전 (2026-10). OSMnx는 원래 분석 시점과 같은 1.9 계열
+pandas==3.0.6
+numpy==2.5.3
+osmnx==1.9.3
+networkx==3.7
+geopandas==1.2.0
+shapely==2.1.2
+folium==0.20.0
+geopy==2.5.0
+scipy==1.18.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+seaborn==0.13.2
+jupyter

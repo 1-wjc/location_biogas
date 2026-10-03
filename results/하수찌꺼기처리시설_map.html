@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9ff9de7b3bb6b3d521d8517e9fb81932 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9ff9de7b3bb6b3d521d8517e9fb81932" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9ff9de7b3bb6b3d521d8517e9fb81932 = L.map(
+                "map_9ff9de7b3bb6b3d521d8517e9fb81932",
+                {
+                    center: [37.63550515, 127.82478695],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_21bb26fbf1a61b07d5b67b9332c1bdf8 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9ff9de7b3bb6b3d521d8517e9fb81932);
+        
+    
+            var marker_3f1088abe3cb867b466f39f798c11847 = L.marker(
+                [37.8802344, 127.7108568],
+                {}
+            ).addTo(map_9ff9de7b3bb6b3d521d8517e9fb81932);
+        
+    
+            var icon_b763c16cb692a5a23c25c45e3ac6894e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_3f1088abe3cb867b466f39f798c11847.setIcon(icon_b763c16cb692a5a23c25c45e3ac6894e);
+        
+    
+        var popup_63d8fbee0af294de61c82fc09943e2d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_54085dbbb0e7ce3b112fb46593854bf6 = $(`<div id="html_54085dbbb0e7ce3b112fb46593854bf6" style="width: 100.0%; height: 100.0%;">하수찌꺼기처리시설: 하수슬러지 자원화시설</div>`)[0];
+                popup_63d8fbee0af294de61c82fc09943e2d1.setContent(html_54085dbbb0e7ce3b112fb46593854bf6);
+            
+        
+
+        marker_3f1088abe3cb867b466f39f798c11847.bindPopup(popup_63d8fbee0af294de61c82fc09943e2d1)
+        ;
+
+        
+    
+    
+            var marker_1208d203a8f4dc92720ec3c6615e1a18 = L.marker(
+                [37.3907759, 127.9387171],
+                {}
+            ).addTo(map_9ff9de7b3bb6b3d521d8517e9fb81932);
+        
+    
+            var icon_21b77ae61700a9743c75ac826b24b94b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_1208d203a8f4dc92720ec3c6615e1a18.setIcon(icon_21b77ae61700a9743c75ac826b24b94b);
+        
+    
+        var popup_f2731d05b1fd6ec3b3bfe2e1693713c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_885fe2d6505a9854f7a70975af93fdfc = $(`<div id="html_885fe2d6505a9854f7a70975af93fdfc" style="width: 100.0%; height: 100.0%;">하수찌꺼기처리시설: 원주시 하수슬러지 처리시설</div>`)[0];
+                popup_f2731d05b1fd6ec3b3bfe2e1693713c0.setContent(html_885fe2d6505a9854f7a70975af93fdfc);
+            
+        
+
+        marker_1208d203a8f4dc92720ec3c6615e1a18.bindPopup(popup_f2731d05b1fd6ec3b3bfe2e1693713c0)
+        ;
+
+        
+    
+</script>
+</html>

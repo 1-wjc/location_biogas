@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_320eb1a66011fbcc1db7e15f7371d004 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_320eb1a66011fbcc1db7e15f7371d004" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_320eb1a66011fbcc1db7e15f7371d004 = L.map(
+                "map_320eb1a66011fbcc1db7e15f7371d004",
+                {
+                    center: [37.71871986666667, 128.15590386666668],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2909f96accbbdad3d695c18c757a249a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_320eb1a66011fbcc1db7e15f7371d004);
+        
+    
+            var marker_8c60cb44f91825f48d0cd8efeb9d1a9b = L.marker(
+                [37.7681186, 128.9409396],
+                {}
+            ).addTo(map_320eb1a66011fbcc1db7e15f7371d004);
+        
+    
+            var icon_dfa09e9d15f91755516518763643be23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8c60cb44f91825f48d0cd8efeb9d1a9b.setIcon(icon_dfa09e9d15f91755516518763643be23);
+        
+    
+        var popup_64c6d00a7060378907b452a7da441f7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d84301683bed2886ea7d64e322b5a29 = $(`<div id="html_1d84301683bed2886ea7d64e322b5a29" style="width: 100.0%; height: 100.0%;">바이오가스화시설: 강릉공공하수처리시설</div>`)[0];
+                popup_64c6d00a7060378907b452a7da441f7f.setContent(html_1d84301683bed2886ea7d64e322b5a29);
+            
+        
+
+        marker_8c60cb44f91825f48d0cd8efeb9d1a9b.bindPopup(popup_64c6d00a7060378907b452a7da441f7f)
+        ;
+
+        
+    
+    
+            var marker_276f8cd318bb94db056cb0e3e97e5a35 = L.marker(
+                [37.8802344, 127.7108568],
+                {}
+            ).addTo(map_320eb1a66011fbcc1db7e15f7371d004);
+        
+    
+            var icon_b2f2ce4630b5cc4d8ccbe4a062760d24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_276f8cd318bb94db056cb0e3e97e5a35.setIcon(icon_b2f2ce4630b5cc4d8ccbe4a062760d24);
+        
+    
+        var popup_a54dc1209bbe6487978445e93e9f7489 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82f23979ac86a461db75d85bc4de460e = $(`<div id="html_82f23979ac86a461db75d85bc4de460e" style="width: 100.0%; height: 100.0%;">바이오가스화시설: 춘천공공하수처리시설</div>`)[0];
+                popup_a54dc1209bbe6487978445e93e9f7489.setContent(html_82f23979ac86a461db75d85bc4de460e);
+            
+        
+
+        marker_276f8cd318bb94db056cb0e3e97e5a35.bindPopup(popup_a54dc1209bbe6487978445e93e9f7489)
+        ;
+
+        
+    
+    
+            var marker_35886e4546ee4f416f8480581dfec1f6 = L.marker(
+                [37.3907759, 127.9387171],
+                {}
+            ).addTo(map_320eb1a66011fbcc1db7e15f7371d004);
+        
+    
+            var icon_3e3582c643a34988dd44254ae3fea306 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_35886e4546ee4f416f8480581dfec1f6.setIcon(icon_3e3582c643a34988dd44254ae3fea306);
+        
+    
+        var popup_dee0c8379e3639f7442448121e3cf5c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8a6bc6503982a31b5228271973956ac = $(`<div id="html_d8a6bc6503982a31b5228271973956ac" style="width: 100.0%; height: 100.0%;">바이오가스화시설: 원주공공하수처리장</div>`)[0];
+                popup_dee0c8379e3639f7442448121e3cf5c6.setContent(html_d8a6bc6503982a31b5228271973956ac);
+            
+        
+
+        marker_35886e4546ee4f416f8480581dfec1f6.bindPopup(popup_dee0c8379e3639f7442448121e3cf5c6)
+        ;
+
+        
+    
+    
+            var marker_84e1d747d3e64fff4e1dfdecd004d0fd = L.marker(
+                [37.3862347, 127.9012709],
+                {}
+            ).addTo(map_320eb1a66011fbcc1db7e15f7371d004);
+        
+    
+            var icon_306b41b3eae93e59e9f6c14dc02c5867 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_84e1d747d3e64fff4e1dfdecd004d0fd.setIcon(icon_306b41b3eae93e59e9f6c14dc02c5867);
+        
+    
+        var popup_6151c1b42fe29ea5b4f10cb71a62ada5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cbca0dff14f0c89db66ce1b4825d735d = $(`<div id="html_cbca0dff14f0c89db66ce1b4825d735d" style="width: 100.0%; height: 100.0%;">바이오가스화시설: 바이오메탄자동차 연료화시설</div>`)[0];
+                popup_6151c1b42fe29ea5b4f10cb71a62ada5.setContent(html_cbca0dff14f0c89db66ce1b4825d735d);
+            
+        
+
+        marker_84e1d747d3e64fff4e1dfdecd004d0fd.bindPopup(popup_6151c1b42fe29ea5b4f10cb71a62ada5)
+        ;
+
+        
+    
+    
+            var marker_ab978750e9f3602198bc9bf4125606ea = L.marker(
+                [38.1798235, 128.606487],
+                {}
+            ).addTo(map_320eb1a66011fbcc1db7e15f7371d004);
+        
+    
+            var icon_4f7bb8ca59ead9dcb02b8b60d0387e44 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ab978750e9f3602198bc9bf4125606ea.setIcon(icon_4f7bb8ca59ead9dcb02b8b60d0387e44);
+        
+    
+        var popup_3a70ce8e8829788f0dcdddaa969d23b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa087b5780c7bffbcf2ffaca51450295 = $(`<div id="html_fa087b5780c7bffbcf2ffaca51450295" style="width: 100.0%; height: 100.0%;">바이오가스화시설: 강원 속초 음식물 하수병합처리시설</div>`)[0];
+                popup_3a70ce8e8829788f0dcdddaa969d23b9.setContent(html_fa087b5780c7bffbcf2ffaca51450295);
+            
+        
+
+        marker_ab978750e9f3602198bc9bf4125606ea.bindPopup(popup_3a70ce8e8829788f0dcdddaa969d23b9)
+        ;
+
+        
+    
+    
+            var marker_0b0c522e8f47a90dbdd46ed317020e4e = L.marker(
+                [37.7071321, 127.8371518],
+                {}
+            ).addTo(map_320eb1a66011fbcc1db7e15f7371d004);
+        
+    
+            var icon_a59b942fb8fe1f81a4bc433205f607db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0b0c522e8f47a90dbdd46ed317020e4e.setIcon(icon_a59b942fb8fe1f81a4bc433205f607db);
+        
+    
+        var popup_2d9be1c9ae5f0b19252805516485b087 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a00f77a270dd686405a320454b9eb6a = $(`<div id="html_7a00f77a270dd686405a320454b9eb6a" style="width: 100.0%; height: 100.0%;">바이오가스화시설: 홍천가축분뇨자원화시설</div>`)[0];
+                popup_2d9be1c9ae5f0b19252805516485b087.setContent(html_7a00f77a270dd686405a320454b9eb6a);
+            
+        
+
+        marker_0b0c522e8f47a90dbdd46ed317020e4e.bindPopup(popup_2d9be1c9ae5f0b19252805516485b087)
+        ;
+
+        
+    
+</script>
+</html>

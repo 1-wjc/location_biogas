@@ -1,0 +1,32 @@
+# 보관 자료 (이전 버전, 참고 자료, 중간 결과, 내부 문서)
+archive/
+
+# 원자료와 QGIS 프로젝트 (공공데이터 원본, 대용량)
+data/
+qgis/
+
+# R 작업 파일과 비밀 정보
+.RData
+.Rhistory
+.Rproj.user/
+*.Rproj
+.Renviron
+.env
+.env.*
+!.env.example
+
+# OS·편집기
+.DS_Store
+__MACOSX/
+.venv/
+Thumbs.db
+.ipynb_checkpoints/
+__pycache__/
+
+# R 실행 시 생기는 그래프 파일
+Rplots.pdf
+*.nbconvert.ipynb
+
+# OSMnx 응답 캐시
+cache/
+code/cache/

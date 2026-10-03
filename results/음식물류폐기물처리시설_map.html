@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d3d0e05b25e723dfbd476163ae705e70 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d3d0e05b25e723dfbd476163ae705e70" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d3d0e05b25e723dfbd476163ae705e70 = L.map(
+                "map_d3d0e05b25e723dfbd476163ae705e70",
+                {
+                    center: [37.80247705000001, 128.19875741],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f629a64de186e6491539525dc60b6cf7 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d3d0e05b25e723dfbd476163ae705e70);
+        
+    
+            var marker_ce4d3b727cb1036f4cd65536cace60de = L.marker(
+                [37.8802344, 127.7108568],
+                {}
+            ).addTo(map_d3d0e05b25e723dfbd476163ae705e70);
+        
+    
+            var icon_e7eb932e775f4992a5cc01a0b5eb9722 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ce4d3b727cb1036f4cd65536cace60de.setIcon(icon_e7eb932e775f4992a5cc01a0b5eb9722);
+        
+    
+        var popup_fe024c833c786b6a4dd488088188ec99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2e3ee265fb7dfe42c23511ae15bf8ba = $(`<div id="html_e2e3ee265fb7dfe42c23511ae15bf8ba" style="width: 100.0%; height: 100.0%;">음식물류폐기물처리시설: 춘천시청</div>`)[0];
+                popup_fe024c833c786b6a4dd488088188ec99.setContent(html_e2e3ee265fb7dfe42c23511ae15bf8ba);
+            
+        
+
+        marker_ce4d3b727cb1036f4cd65536cace60de.bindPopup(popup_fe024c833c786b6a4dd488088188ec99)
+        ;
+
+        
+    
+    
+            var marker_97f37442db1e0bc82de934d39f196625 = L.marker(
+                [37.3862347, 127.9012709],
+                {}
+            ).addTo(map_d3d0e05b25e723dfbd476163ae705e70);
+        
+    
+            var icon_a6830d3e8d8ef572b793dd086b7372e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_97f37442db1e0bc82de934d39f196625.setIcon(icon_a6830d3e8d8ef572b793dd086b7372e0);
+        
+    
+        var popup_28023283d7c25f743731816da98cac27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51180b9213ad5c13e89500898a83c9e0 = $(`<div id="html_51180b9213ad5c13e89500898a83c9e0" style="width: 100.0%; height: 100.0%;">음식물류폐기물처리시설: 강원바이오에너지㈜</div>`)[0];
+                popup_28023283d7c25f743731816da98cac27.setContent(html_51180b9213ad5c13e89500898a83c9e0);
+            
+        
+
+        marker_97f37442db1e0bc82de934d39f196625.bindPopup(popup_28023283d7c25f743731816da98cac27)
+        ;
+
+        
+    
+    
+            var marker_2829d0837f21b296185c560529b9bdc4 = L.marker(
+                [37.461992, 127.9313375],
+                {}
+            ).addTo(map_d3d0e05b25e723dfbd476163ae705e70);
+        
+    
+            var icon_a2fea0cb6399acaae5d6833a59e8e2f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_2829d0837f21b296185c560529b9bdc4.setIcon(icon_a2fea0cb6399acaae5d6833a59e8e2f6);
+        
+    
+        var popup_4220e58722741ba00963cb777c2a51db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7c37a0d45b7ab83474620a8033e2f60 = $(`<div id="html_d7c37a0d45b7ab83474620a8033e2f60" style="width: 100.0%; height: 100.0%;">음식물류폐기물처리시설: 샘골축산</div>`)[0];
+                popup_4220e58722741ba00963cb777c2a51db.setContent(html_d7c37a0d45b7ab83474620a8033e2f60);
+            
+        
+
+        marker_2829d0837f21b296185c560529b9bdc4.bindPopup(popup_4220e58722741ba00963cb777c2a51db)
+        ;
+
+        
+    
+    
+            var marker_65cf74cfb7cac867472c513f8f0ca47e = L.marker(
+                [37.6947945, 128.9935193],
+                {}
+            ).addTo(map_d3d0e05b25e723dfbd476163ae705e70);
+        
+    
+            var icon_8c9c540d883c0655be54f1794403da77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_65cf74cfb7cac867472c513f8f0ca47e.setIcon(icon_8c9c540d883c0655be54f1794403da77);
+        
+    
+        var popup_306495a5ca955778b44533b6733bd8dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e447951382d373888e80dc513d0e8806 = $(`<div id="html_e447951382d373888e80dc513d0e8806" style="width: 100.0%; height: 100.0%;">음식물류폐기물처리시설: 태광비료㈜</div>`)[0];
+                popup_306495a5ca955778b44533b6733bd8dc.setContent(html_e447951382d373888e80dc513d0e8806);
+            
+        
+
+        marker_65cf74cfb7cac867472c513f8f0ca47e.bindPopup(popup_306495a5ca955778b44533b6733bd8dc)
+        ;
+
+        
+    
+    
+            var marker_5a67c8a545bde37f86d461b8eccc4c94 = L.marker(
+                [37.1860723, 129.0095965],
+                {}
+            ).addTo(map_d3d0e05b25e723dfbd476163ae705e70);
+        
+    
+            var icon_502530dd94d72f8122ca8a2b4d0e7946 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5a67c8a545bde37f86d461b8eccc4c94.setIcon(icon_502530dd94d72f8122ca8a2b4d0e7946);
+        
+    
+        var popup_5224d428e1d600532c57046bc11a9515 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e36f7ad6c475691a24db5c1097bef664 = $(`<div id="html_e36f7ad6c475691a24db5c1097bef664" style="width: 100.0%; height: 100.0%;">음식물류폐기물처리시설: 음식물류폐기물자원화시설</div>`)[0];
+                popup_5224d428e1d600532c57046bc11a9515.setContent(html_e36f7ad6c475691a24db5c1097bef664);
+            
+        
+
+        marker_5a67c8a545bde37f86d461b8eccc4c94.bindPopup(popup_5224d428e1d600532c57046bc11a9515)
+        ;
+
+        
+    
+    
+            var marker_72bec9601514709c326d412f3175acba = L.marker(
+                [38.1835183, 128.6055301],
+                {}
+            ).addTo(map_d3d0e05b25e723dfbd476163ae705e70);
+        
+    
+            var icon_eba158e1086ff84c74d733870076292c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_72bec9601514709c326d412f3175acba.setIcon(icon_eba158e1086ff84c74d733870076292c);
+        
+    
+        var popup_fb68d5c43aef69b84ad9c6ce134800f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa5ea4a0eca04dd4153bd0dba3f4d958 = $(`<div id="html_fa5ea4a0eca04dd4153bd0dba3f4d958" style="width: 100.0%; height: 100.0%;">음식물류폐기물처리시설: 음식물처리시설</div>`)[0];
+                popup_fb68d5c43aef69b84ad9c6ce134800f2.setContent(html_fa5ea4a0eca04dd4153bd0dba3f4d958);
+            
+        
+
+        marker_72bec9601514709c326d412f3175acba.bindPopup(popup_fb68d5c43aef69b84ad9c6ce134800f2)
+        ;
+
+        
+    
+    
+            var marker_1f9c3d876b106206bed6dff3bceb8773 = L.marker(
+                [37.509564, 127.9709321],
+                {}
+            ).addTo(map_d3d0e05b25e723dfbd476163ae705e70);
+        
+    
+            var icon_7fa94a0593c528c7350f9db81ea7e7ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1f9c3d876b106206bed6dff3bceb8773.setIcon(icon_7fa94a0593c528c7350f9db81ea7e7ba);
+        
+    
+        var popup_d9a83a999f515cabe897764af554eaf4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73dde173af30986336e0784bb98a1bce = $(`<div id="html_73dde173af30986336e0784bb98a1bce" style="width: 100.0%; height: 100.0%;">음식물류폐기물처리시설: 횡성군 음식물 처리시설</div>`)[0];
+                popup_d9a83a999f515cabe897764af554eaf4.setContent(html_73dde173af30986336e0784bb98a1bce);
+            
+        
+
+        marker_1f9c3d876b106206bed6dff3bceb8773.bindPopup(popup_d9a83a999f515cabe897764af554eaf4)
+        ;
+
+        
+    
+    
+            var marker_b73a7882522663ebc30045b5568ab8db = L.marker(
+                [38.220328, 127.1711155],
+                {}
+            ).addTo(map_d3d0e05b25e723dfbd476163ae705e70);
+        
+    
+            var icon_aef7ecaefc6c4a9eca5d4697aecec226 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b73a7882522663ebc30045b5568ab8db.setIcon(icon_aef7ecaefc6c4a9eca5d4697aecec226);
+        
+    
+        var popup_8d29bce001d26f14fd1a5cf407f59e14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_776cdfdc42c385266422d0cc5f379418 = $(`<div id="html_776cdfdc42c385266422d0cc5f379418" style="width: 100.0%; height: 100.0%;">음식물류폐기물처리시설: 환경자원사업소</div>`)[0];
+                popup_8d29bce001d26f14fd1a5cf407f59e14.setContent(html_776cdfdc42c385266422d0cc5f379418);
+            
+        
+
+        marker_b73a7882522663ebc30045b5568ab8db.bindPopup(popup_8d29bce001d26f14fd1a5cf407f59e14)
+        ;
+
+        
+    
+    
+            var marker_4aa57eced5843532919feae84eece25e = L.marker(
+                [38.1379283, 128.2115455],
+                {}
+            ).addTo(map_d3d0e05b25e723dfbd476163ae705e70);
+        
+    
+            var icon_709ac875dddc76e8297dd98ca7eb7a35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4aa57eced5843532919feae84eece25e.setIcon(icon_709ac875dddc76e8297dd98ca7eb7a35);
+        
+    
+        var popup_cbd151ae8df724479fe98383507d4451 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5c80ce850287193320fd6363b8a4c98 = $(`<div id="html_a5c80ce850287193320fd6363b8a4c98" style="width: 100.0%; height: 100.0%;">음식물류폐기물처리시설: 음식물처리시설</div>`)[0];
+                popup_cbd151ae8df724479fe98383507d4451.setContent(html_a5c80ce850287193320fd6363b8a4c98);
+            
+        
+
+        marker_4aa57eced5843532919feae84eece25e.bindPopup(popup_cbd151ae8df724479fe98383507d4451)
+        ;
+
+        
+    
+    
+            var marker_838146622836803e990a40284adf3acf = L.marker(
+                [38.364104, 128.4818699],
+                {}
+            ).addTo(map_d3d0e05b25e723dfbd476163ae705e70);
+        
+    
+            var icon_77795dcec906fdaf51236f300e3a901e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_838146622836803e990a40284adf3acf.setIcon(icon_77795dcec906fdaf51236f300e3a901e);
+        
+    
+        var popup_afac951aa968b57fed6794173cd24f3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5f93093261e6f0ad61f72f0fafc1f62 = $(`<div id="html_e5f93093261e6f0ad61f72f0fafc1f62" style="width: 100.0%; height: 100.0%;">음식물류폐기물처리시설: 음식물처리시설</div>`)[0];
+                popup_afac951aa968b57fed6794173cd24f3e.setContent(html_e5f93093261e6f0ad61f72f0fafc1f62);
+            
+        
+
+        marker_838146622836803e990a40284adf3acf.bindPopup(popup_afac951aa968b57fed6794173cd24f3e)
+        ;
+
+        
+    
+</script>
+</html>
