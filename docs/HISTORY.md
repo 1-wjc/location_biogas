@@ -22,7 +22,7 @@
 | v0.1 | 05.20 | `Untitled1.ipynb`, `Untitled2.ipynb`, `0515.ipynb`, `0515_1.R` | 보호시설·교차로 노드 지도 탐색, 지오코딩 시험 |
 | v0.2 | 05.29 | `환경공모전_회귀분석.ipynb`, `Final_…`, `Updated_…`, `modified_analysis(_v2).ipynb` | 폐기물 시설–기존 바이오가스화 시설 최근접 거리 분포(haversine) |
 | v0.3 | 05.29 | `modified_analyzed_map_visualization.ipynb`, `analyzed_map_visualization.ipynb` | 가축사육업·119안전센터 거리 분포 추가, 시설 지도 |
-| **v1.0** | 05.20~06.03 | `code/` 8개 | 최종 제출물에 쓰인 코드: 지역 현황 시각화, 시설 지도, k-means 군집, OSMnx 최단거리, 거리 분포 |
+| **v1.0** | 05.20~06.03 | `code/` 8개 | 최종 제출물에 쓰인 코드 : 지역 현황 시각화, 시설 지도, k-means 군집, OSMnx 최단거리, 거리 분포 |
 
 v1.0의 거리 분포 노트북(`05_distance_distribution.ipynb`)이 v0.2·v0.3을 정리한 최종본임. 가중치 계산 결과는 `results/*_가중치.csv`에 있음.
 
